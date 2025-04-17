@@ -1,9 +1,0 @@
-/* Define --main-bg-color here */
-:root {
-  --main-bg-color: cornflowerblue;
-  /*Call: var(--main-bg-color)*/
-}
-
-*{
-    background-color: var(--main-bg-color);
-}

@@ -1,0 +1,4 @@
+Will put all the posts in this folder.
+
+Considering making javascript script to assemble the YAML of all the docs into a json file.
+This json file is then used to filter what posts to show.

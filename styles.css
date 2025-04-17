@@ -1,0 +1,89 @@
+/* Define --main-bg-color here */
+:root {
+  --main-bg-color: cornflowerblue;
+  --main-color: white;
+  /*Call: var(--main-bg-color)*/
+}
+
+
+
+body
+{
+    background-color: var(--main-bg-color);
+    font-family: sans-serif;
+    color: var(--main-color);   
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icon
+{
+  width: 70px;
+  height: 70px;
+}
+
+.icon-list ul, li
+{
+  display: inline;
+}
+
+.container
+{
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1.5em;
+  background-color: var(--main-bg-color);
+}
+
+.navigation nav, ul, h1
+{
+  margin:0;
+}
+
+.navigation li
+{
+  display: inline;
+  padding: 0 3%;
+}
+
+.navigation a
+{
+  padding: 4%;
+  min-width: 0.5em;
+  max-width: 3em;
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  transition: 0.4s ease-in-out;
+}
+
+.navigation a:hover
+{
+  background-color: rgba(255, 166, 0, 0.295);
+  font-weight: bold;
+}
+
+.navigation a:visited
+{
+  color: var(--main-color);
+}
+
+a:active 
+{
+  text-decoration: underline;
+}
+
+.main-header
+{
+background-size: cover;
+background-image: url("images/circuitBanner.webp");
+text-align: center;
+font-weight: lighter;
+}
+
+p
+{
+  line-height: 1; 
+}

@@ -3,56 +3,79 @@
 <head>
     <title>Ty's Website | Home</title>
     <meta name="description" content="A website describing who I am and some things I find cool.">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="sleek-cyan.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
+
 </head>
 <body>
-    <header class="main-header">
-        <h1 class="navigation">Tyrese Anderson-Whittington</h1>
-        <nav class="navigation">
-            <ul class="navigation">
-                <!--Link to other pages: <a href="posts.html"-->
-                <li><a href="index.html" class="clickable">Home</a></li>
-                <li><a class="clickable">CV</a></li>
-                <li><a class="clickable">Posts</a></li> <!--Make database that allows .md files to be navigated based on search of filters-->
-            <!-- Make script to update based on all the MD files. Will mean that the table can be made based on the JSON. -->
-            </ul>
-        </nav>
-    </header>
 
-<section class="container">
-    <h2>Who am I?</h2>
-    <p>Thanks for coming to my site!<br><br>
-    I am an Electrical and Electronic Engineering (EEE) student at UoN. The world is such a large and beautiful place. There is so much knowledge and beauty I would love to explore. Having my own website will allow me to post my research, progress in projects and allow those who care to be up to date on my thoughts and interests.<br><br>
-    I am a nerd through and through. I love games, reading and even learning. I love learning about whatever captures my interest, no subject is excluded.
-    
-    </p>
-
-</section>
-
-<section class="container">
-    <h2>My Interests</h2>
-    <p><ul>
-        <li>Reading</li>
-        <li>Cooking (and eating)</li>
-        <li>Video Games</li>
-        <li>Art</li>
-    </ul></p>
-</section>
-
-<section class="container">
-    <h2>My Philosophy</h2>
-</section>
-<section class="container">
-    <h3>Contact Me!</h3>
-    <ul class="icon-list">
-        <li> <a href="mailto:tyresea-w@hotmail.com"> <img src="images/emailIcon.svg" class="icon adjust-svg clickable"></a> </li>
-        <li> <a href="https://www.linkedin.com/in/tyrese-anderson-whittington" target="_blank"><img src="images/LinkedIn_Iconpng.png" class="icon clickable"> </a></li>
+<nav class="site"> <!-- Navigation bar at top of site -->
+<div class="container"> 
+    <ul>
+    <li><a href="index.html" aria-current="page">Home</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="article.html">Posts</li>
     </ul>
+</div>
+</nav>
+
+<main id="main">
+<section class="hero container">
+    <h1>Hi, I'm Tyrese — I build <span class="accent">things</span>.</h1>
+    <p class="lead">Engineer (and wannabe part-time blogger) based in the UK.</p>
+
+    <div class="cluster">
+    <a class="btn" href="#work">See what I have done.</a>
+    <a class="btn btn-ghost" href="#contact">Get in touch</a>
+    </div>
 </section>
 
+<section id="work" class="section container">
+    <h2>Selected work</h2>
+    <div class="grid">
+    <article class="card">
+        <span class="badge">2026</span>
+        <h3>Project one</h3>
+        <p>Wow, how interseting.</p>
+    </article>
+    <article class="card">
+        <h3>Project two</h3>
+        <p>Even better.</p>
+    </article>
+    </div>
+</section>
 
+<section class="section container">
+    <h2>About</h2>
+    <img src="images/handsomeChap.jpg" alt="A picture of me on a hike. I will find a better picture. Eventually. Maybe..." />
+    <div>
+    <p> I am an Electrical and Electronic Engineering (EEE) student at UoN. The world is such a large and beautiful place. There is so much knowledge and beauty I would love to explore. Having my own website will allow me to post my research, progress in projects and allow those who care to be up to date on my thoughts and interests.</p>
+    <p>I am a nerd through and through. I love games, reading and even learning. I love learning about whatever captures my interest, no subject is safe! I also love fishing with my family and one day want to have my own fish tank too.</p>
+    <p>I would love to get feedback, so please do <a class="accent-text" href="#contact">contact me</a>!</p>
+    </div>
+</section>
+
+<section id="contact" class="section container">
+    <h2>Reach Out</h2>
+    <p>Shoot me a message and I will try to respond! I am more likely to see a <a href="https://www.linkedin.com/in/tyrese-anderson-whittington" target="_blank">LinkedIn</a> message. Thanks for your time and have a fantastic day!</p>
+    <div class="split">    
+        <div display:flex class="grid"><a href="mailto:tyresea-w@hotmail.com" class="btn btn-ghost container"> 
+            <div>Mail</div> 
+            <div><img src="images/emailIcon.svg" class="avatar"> </div>
+        </a></div>
+        <div class="grid"> <a class="btn btn-ghost container" href="https://www.linkedin.com/in/tyrese-anderson-whittington" target="_blank">
+            <div>LinkedIn</div>
+            <div><img src="images/LinkedIn_Iconpng.png" class="avatar"></div>
+        </a></article>
+    </div>
+</section>
+</main>
+
+
+<footer class="site">
+<div class="container">© 2026 Tyrese</div>
+</footer>
 </body>
 </html>

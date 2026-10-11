@@ -1,4 +1,4 @@
-export const blogPosts = [ 
+export const blogPost = [ 
     {
         'id': 1,
         'title': 'Temp Article',
@@ -8,7 +8,7 @@ export const blogPosts = [
     {
         'id': 2,
         'title': 'Even more Temp article',
-        'body': 'Wow. Didnt think my bs could get so lazy? Think again.',
+        'body': 'Wow. Didn\'t think my bs could get so lazy? Think again.',
         'slug': 'winging_it'
     }
 ]

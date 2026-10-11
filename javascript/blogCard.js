@@ -9,7 +9,7 @@ blogPosts.forEach(post=>
     blogCard.setAttribute("data-id", post.id);
 
     const blogCardHTML  = `
-    <a href="/posts/temp.html?slug=${post.slug}" data-link>
+    <a class="normal" href="/posts/readPost.html?slug=${post.slug}" data-link>
         <h2> ${post.title} </h2>
         <p> ${post.body.substring(0,100)} </p>
     </a>`;

@@ -1,4 +1,4 @@
-export const blogPost = [ 
+export const blogPosts = [ 
     {
         'id': 1,
         'title': 'Temp Article',

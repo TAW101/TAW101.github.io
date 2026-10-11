@@ -1,4 +1,4 @@
-import { blogPosts } from "../javascript/blogPosts.js";
+import { blogPosts } from "./blogPosts.js";
 
 const blogCardContainer = document.querySelector("#blog-cards-container");
 
